@@ -1,0 +1,224 @@
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.portfolio-nav {
+  background-color: #333;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.portfolio-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.portfolio-nav li {
+  margin: 0;
+}
+
+.portfolio-nav button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.portfolio-nav button:hover {
+  background-color: #555;
+}
+
+.portfolio-nav button.active {
+  background-color: #007bff;
+}
+
+.portfolio-content {
+  padding: 2rem;
+  min-height: 500px;
+}
+
+.section {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sección Inicio */
+.perfil-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-personal h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.redes-sociales a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.redes-sociales a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Habilidades */
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.habilidad-categoria h3 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.habilidad-categoria ul {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidad-categoria li {
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.habilidad-categoria li:before {
+  content: "•";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+/* Experiencia y Formación */
+.experiencia-item, .formacion-item, .certificacion-item, .referencia-item {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.experiencia-item h3, .formacion-item h3, .certificacion-item h3, .referencia-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Proyectos */
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.proyecto-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.proyecto-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.proyecto-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.proyecto-card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.proyecto-card a:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .perfil-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .redes-sociales {
+    justify-content: center;
+  }
+  
+  .portfolio-content {
+    padding: 1rem;
+  }
+  
+  .habilidades-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .proyectos-grid {
+    grid-template-columns: 1fr;
+  }
+}
