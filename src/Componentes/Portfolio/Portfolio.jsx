@@ -184,8 +184,34 @@ const Portfolio = () => {
       }
     ],
     logros: [
-      "Premio al Mejor Desempeño 2023",
-      "Reconocimiento por Excelencia en Proyectos"
+      {
+        titulo: "Logros profesionales",
+        primerLogro: "Mantenimiento intachable de sistemas de archivo durante 4 años en Instituto Oncológico",
+        segundoLogro: "Cumplimiento perfecto de políticas de confidencialidad en entorno médico",
+        tercerLogro: "Colaboración efectiva interdepartamental facilitando flujo óptimo de información",
+        cuartoLogro: "Contribución al éxito del equipo médico mediante organización eficiente",
+      },
+      {
+        titulo: "Logros Académicos",
+        primerLogro: "Próximo a graduarse de Licenciatura en Informática (falta solo tesis)",
+        segundoLogro: "10+ certificaciones técnicas obtenidas en Fundación Carlos Slim 2025",
+        tercerLogro: "Formación completa en programación orientada a objetos",
+        cuartoLogro: "Especialización en tecnologías emergentes (Realidad Virtual/Aumentada, IA)",
+      },
+      {
+        titulo: "Reconocimientos",
+        primerLogro: "Reconocimiento por excelencia en mantenimiento de archivos médicos",
+        segundoLogro: "Evaluaciones sobresalientes por trabajo en equipo y profesionalismo",
+        tercerLogro: "Certificaciones validadas en múltiples áreas tecnológicas",
+        cuartoLogro: "Permanencia intachable durante 4 años de servicio continuo",
+      },
+      {
+        titulo: "Logros Técnicos",
+        primerLogro: "Dominio de 10+ lenguajes de programación diferentes",
+        segundoLogro: "Habilidades completas de diseño UX/UI con herramientas profesionales",
+        tercerLogro: "Preparación full stack para desarrollo web y móvil",
+        cuartoLogro: "Fundamentos sólidos en inteligencia artificial y realidad virtual",
+      }
     ],
     referencias: [
       {
