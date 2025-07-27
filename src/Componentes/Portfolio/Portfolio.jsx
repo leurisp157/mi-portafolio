@@ -26,13 +26,21 @@ const Portfolio = () => {
       linkedin: "https://linkedin.com/in/tunombre",
       sitioWeb: "https://tusitio.com"
     },
-    resumen: "Profesional con X años de experiencia en [tu área]. Apasionado por [intereses profesionales] y comprometido con la excelencia en cada proyecto.",
-    objetivo: "Buscar oportunidades desafiantes donde pueda aplicar mis habilidades y seguir creciendo profesionalmente.",
+    resumen: "Soy un apasionado desarrollador tecnológico con una sólida formación académica en informática y una amplia experiencia técnica en múltiples lenguajes de programación. Mi carrera combina habilidades técnicas avanzadas con una excelente capacidad de trabajo en equipo y liderazgo situacional.",
+    objetivo: "Destaco por mi adaptabilidad, pensamiento crítico y orientación al cliente, lo que me permite abordar proyectos complejos con soluciones creativas e innovadoras. Mi experiencia previa en gestión documental me ha dotado de una excelente atención al detalle y capacidad de organización que aplico en cada proyecto tecnológico.",
     habilidades: {
-      tecnicas: ["React", "JavaScript", "CSS", "HTML", "Node.js"],
-      blandas: ["Comunicación", "Trabajo en equipo", "Liderazgo", "Resolución de problemas"],
-      idiomas: ["Español (nativo)", "Inglés (intermedio)"],
-      herramientas: ["Figma", "Adobe Photoshop", "Git", "VS Code"]
+      tecnicas: ["React", "JavaScript", "CSS", "HTML", "Node.js","SQL (MySQL, PostgreSQL)","Python","Git y GitHub","MongoDB","Diseño y UX/UI","Lenguajes de Programación c",
+        "Lenguajes de Programación c++","Lenguajes de Programación c#", "Lenguajes de Programación Java","Lenguajes de Programación PHP","Lenguajes de Programación Python",
+        "Lenguajes de Programación Dart","Lenguajes de Programación Kotlin","Lenguajes de Programación Swift"],
+
+      blandas: ["Comunicación", "Trabajo en equipo", "Liderazgo", "Resolución de problemas", "Adaptabilidad", "Pensamiento crítico", "Creatividad", "Gestión del tiempo",
+         "Atención al detalle", "Liderazgo situacional", "Empatía", "Negociación", "Toma de decisiones", "Pensamiento estratégico", "Orientación al cliente", "Habilidades interpersonales"],
+
+
+      idiomas: ["Español (nativo)", "Inglés (muy basico)",],
+      herramientas: ["Figma (diseño de interfaces, prototipado, colaboración en tiempo real)", "Adobe Photoshop (edición de imágenes, diseño gráfico)", "Adobe Illustrator (gráficos vectoriales)",
+         "Sketch (diseño de interfaces, macOS)", "Adobe XD (diseño y prototipado UX/UI)", "Visual Studio Code (extensiones, debugging, integración Git)", "Sublime Text (edición de código, personalización)",
+         "Git (control de versiones, colaboración en proyectos)", "GitHub (almacenamiento de código, colaboración, gestión de proyectos)", "Postman (pruebas de API, documentación)",]
     },
     experiencia: [
       {
