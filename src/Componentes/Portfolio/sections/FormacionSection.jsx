@@ -8,6 +8,7 @@ const FormacionSection = ({ formacion }) => {
         <div key={index} className="formacion-item">
           <h3>{form.titulo}</h3>
           <h4>{form.institucion} - {form.periodo}</h4>
+          <h4>{form.comentario}</h4>
         </div>
       ))}
     </div>

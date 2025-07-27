@@ -8,6 +8,7 @@ const CertificacionesSection = ({ certificaciones }) => {
         <div key={index} className="certificacion-item">
           <h3>{cert.nombre}</h3>
           <h4>{cert.entidad} - {cert.fecha}</h4>
+          <a href={cert.enlace}>Ver certificado</a>
         </div>
       ))}
     </div>

@@ -36,26 +36,135 @@ const Portfolio = () => {
     },
     experiencia: [
       {
-        empresa: "Nombre de la Empresa",
-        puesto: "Tu Puesto",
-        periodo: "2020 - Presente",
-        funciones: ["Función 1", "Función 2", "Función 3"],
-        logros: ["Logro 1", "Logro 2"]
+        empresa: "INSTITUTO ONCOLÓGICO Y DE ESPECIALIDADES DEL NORDESTE",
+        puesto: "Auxiliar de archivo",
+        periodo: "2018 - 2022",
+
+        funciones: ["Clasificación y organización de documentos según sistemas establecidos", "Codificación de archivos para fácil identificación y recuperación",
+           "Digitalización de documentos físicos", "Mantenimiento de la confidencialidad de la información", "Colaboración con otros departamentos para asegurar el flujo de información",
+           "Ubicación adecuada de documentos en estanterías y carpetas", "Mantenimiento de condiciones óptimas de conservación de los archivos", "Control de acceso y seguridad de los archivos"],
+
+        logros: ["permanecer intachable", "Respectar a mi superiores", "Mantener un ambiente de trabajo positivo",
+           "Colaborar con el equipo de trabajo", "Mantener la confidencialidad de la información",
+            "Cumplir con las políticas y procedimientos de la empresa", "Contribuir al éxito del equipo"
+        ]
       }
     ],
-    formacion: [
+     formacion: [
       {
-        titulo: "Título Obtenido",
-        institucion: "Nombre de la Institución",
-        periodo: "2016 - 2020"
+        titulo: "Licenciatura en Informática",
+        institucion: "Universidad Autónoma de Santo Domingo",
+        periodo: "2019 - Actualidad",
+        comentario: "Solo flata hacer la tesis para graduarme"
+      },
+      {
+        titulo: "Tecnico en Informatica",
+        institucion: "VICENTE AQUILINO SANTOS",
+        periodo: "2015 - 2018",
+      },
+      
+      {
+        titulo: "Bachillerato",
+        institucion: "Liceo Coronel Rafael Tomás Fernández Domínguez",
+        periodo: "2014 - 2015"
+      },
+      {
+        titulo: "Primaria",
+        institucion: "San Francisco",
+        periodo: "2005 - 2014"
+      },
+      {
+        titulo: "Programa del centro de desarrollo infantil Maestro de Galilea",
+        institucion: "Concilio Biblico Cristiano",
+        periodo: "2003 - 2021"
       }
     ],
-    certificaciones: [
+     certificaciones: [
       {
-        nombre: "Certificación en React",
-        entidad: "Plataforma de Cursos",
-        fecha: "2023"
-      }
+        nombre: "Curador de datos",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/19Z0Y7JPJCqa3iFc2-hSCsCAUO34Wtfv_/view?usp=sharing"
+      },
+      {
+        nombre: "Finder",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/11W4SC6eTMK2ErEGpibYa--srPE-E3fMM/view?usp=sharing"
+      },
+      {
+        nombre: "Programador (orientado a objetos)",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1HEGFzMaeFQjbpV1PyArGjvNcmM1O1LBy/view?usp=sharing"
+      },
+      {
+        nombre: "Analista de necesidades de formación",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1QhK_dc9YfW2yGUbbXzRsomSmZRURZgAN/view?usp=sharing"
+      },
+      {
+        nombre: "Administrador de plataformas digitales de aprendizaje",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1qfTNEcvlSfk5kC0PCT1m7FhBfKLOonPb/view?usp=sharing"
+      },
+      {
+        nombre: "Cómputo básico",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1q2cfujMuw9-DjwmxZVQvmxGIyGlR7HoC/view?usp=sharing"
+      },
+      {
+        nombre: "Prácticas de ofimática",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/10hneBvHks6Kb4TbVV8SmWARLWI28KYkD/view?usp=sharing"
+      },
+      {
+        nombre: "Prácticas de mecanografía",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1VIsdB7Yo2jWZnWxr1ZY5_DOP6fas3yih/view?usp=sharing"
+      },
+      {
+        nombre: "Técnico en informática (Ofimática)",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1hxqrZEA72ooF2ypq2Ht2SxZyElomjRBB/view?usp=sharing"
+      },
+      {
+        nombre: "Tu negocio en Internet",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1qAeVWLfAom9T1k9OBzXDeolbgyS-IOBY/view?usp=sharing"
+      },
+      {
+        nombre: "Conexión a internet en el hogar",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1RkGxjccF6iOMN6FFLqhKVjbGpeGWGTWP/view?usp=sharing"
+      },
+      {
+        nombre: "Manejo ético de la información y datos",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1zI24-mprFm6cUL_bwb3zxW7nykr4q1JO/view?usp=sharing"
+      },
+      {
+        nombre: "Fundamentos de inteligencia artificial",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/1i5SlHptYoyiOQaWZa-Er3gPhjIp7XhvD/view?usp=sharing"
+      },
+      {
+        nombre: "Creación de físicas e interfaz con C# para RV y RA",
+        entidad: "Fundacion Carlos Slim",
+        fecha: "2025",
+        enlace: "https://drive.google.com/file/d/19mnF2e1bPwFnEISxBqmdCwWQR5o0UyRH/view?usp=sharing"
+      },
+  
     ],
     proyectos: [
       {
