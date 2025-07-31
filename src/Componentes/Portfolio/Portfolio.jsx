@@ -18,8 +18,13 @@ import imagenAprendeIngles from '../Imagenes/Proyectos/AprendeIngles.png';
 import imagenTeoremaDePitagoras from '../Imagenes/Proyectos/TeoremaDePitagoras.png';
 import imagenFormulaCuadratica from '../Imagenes/Proyectos/FormulaCuadratica.png';
 import imagenInteresSimple from '../Imagenes/Proyectos/InteresSimple.png';
-
-
+import imagenAdivinaElNumero from '../Imagenes/Proyectos/AdivinaElNúmero.png';
+import imagenAreaPerimetroCirculo from '../Imagenes/Proyectos/AreaYPerimetroDelCírculo.png';
+import imagenEstadisticaBasica from '../Imagenes/Proyectos/EstadisticaBasica.png';
+import imagenRegresionLinealSimple from '../Imagenes/Proyectos/RegresionLinealSimple.png';
+import imagenCorrelacionPearson from '../Imagenes/Proyectos/CorrelacionDePearson.png';
+import imagenEstadoDeResultados from '../Imagenes/Proyectos/EstadoDeResultados.png';
+import imagenLibroDiarioContable from '../Imagenes/Proyectos/LibroDiarioContable.png';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('inicio');
@@ -227,59 +232,61 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/drive/folders/1vT_rRY9i4fhhSeMZcF_x4MWXDr18zNLv?usp=sharing",
         imagen: imagenInteresSimple
       },
-      
-      
-      //---------------------------------------------------------------------------------------------------------------
-
 
       {
         nombre: "Adivina el Número (1 al 100)",
         descripcion: "Juego divertido donde el usuario adivina un número secreto. Desarrolla lógica y uso de bucles, ideal para aprender programación de forma entretenida y progresiva.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1IvdyEDetljB3kJWmbIeVsWSymSEeRg0M?usp=sharing",
+        imagen: imagenAdivinaElNumero
       },
       {
         nombre: "Área y Perímetro del Círculo",
         descripcion: "Calcula medidas de un círculo a partir del radio. Enseña geometría básica y validación de datos, útil para estudiantes de matemáticas y programación inicial.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1gEH9DYnUJxP4Wp3S_m1R7dMGrQ6V1CKs?usp=sharing",
+        imagen: imagenAreaPerimetroCirculo
       },
+            
+      
+      //---------------------------------------------------------------------------------------------------------------
+
+
       {
         nombre: "Estadística Básica",
         descripcion: "Analiza un conjunto de datos calculando media, mediana, moda y desviación. Introduce conceptos clave de estadística con un enfoque práctico y fácil de entender.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1LXDe-7Gq-lY-KuRd4Hgnkh-hftz3XW_p?usp=sharing",
+        imagen: imagenEstadisticaBasica
       },
       {
         nombre: "Regresión Lineal Simple",
         descripcion: "Encuentra la tendencia entre dos variables mediante una recta. Útil para análisis de datos y predicciones, ideal en proyectos escolares o investigaciones simples.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1aYvF75l5ZRuvw8VUGsVIByA_TpKa-gY5?usp=sharing",
+        imagen: imagenRegresionLinealSimple 
+
       },
       {
         nombre: "Correlación de Pearson",
         descripcion: "Mide qué tan relacionadas están dos variables. Ofrece una interpretación clara del resultado, ayudando a comprender relaciones en datos de forma intuitiva y educativa.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1CZwwiPVIAdXtDG-WmMV8Q9xmuZb64DMq?usp=sharing",
+        imagen: imagenCorrelacionPearson
       },
       {
         nombre: "Estado de Resultados",
         descripcion: "Simula un informe contable que muestra ingresos, costos y utilidad. Enseña finanzas básicas de empresas, perfecto para estudiantes de contabilidad o emprendedores principiantes.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1haOJ4Q3y7DtuKkRPhRokWGsORWhh9id5?usp=sharing",
+        imagen: imagenEstadoDeResultados
       },
       {
         nombre: "Libro Diario Contable",
         descripcion: "Registra movimientos contables validando que débitos igualen créditos. Introduce el principio de partida doble, ideal para aprender contabilidad con ejemplos prácticos.",
         tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
+        enlace: "https://drive.google.com/drive/folders/1NiH-wDheOLLFi64grD7qZvzXBx12RNB_?usp=sharing",
+        imagen: imagenLibroDiarioContable
       },
       /*
       {
