@@ -186,14 +186,14 @@ const Portfolio = () => {
     proyectos: [
       {
         nombre: "Calculadora Matemática Básica",
-        descripcion: "Realiza operaciones como suma, resta, multiplicación y división. Con validación de división entre cero.",
+        descripcion: "Programa interactivo que realiza operaciones aritméticas simples. Ideal para practicar matemáticas básicas y aprender estructuras de control en programación de forma sencilla y efectiva.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/1zqCzzj5xTOaDt1ishq34GTFRdxKsSwbL?usp=sharing",
         imagen: imagenOMB
       },
       {
         nombre: "Descubre la Naturaleza",
-        descripcion: "Aplicación educativa que muestra datos interesantes sobre bosques, océanos, animales y curiosidades aleatorias.",
+        descripcion: "Aplicación educativa que enseña curiosidades sobre bosques, océanos y animales. Fomenta el conocimiento del medio ambiente mediante un menú interactivo y dinámico.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/15C2mMfF_b-PmKwQ5Fi-ZLJDa50NzvCyP?usp=sharing",
         imagen: imagenNaturalezaApp 
@@ -201,28 +201,28 @@ const Portfolio = () => {
       },
       {
         nombre: "Aprende Inglés - Juego de Traducción",
-        descripcion: "Juego interactivo donde el usuario traduce palabras del español al inglés y recibe retroalimentación y puntaje.",
+        descripcion: "Juego que ayuda a practicar vocabulario básico del inglés. El usuario traduce palabras y recibe retroalimentación inmediata, reforzando el aprendizaje de forma lúdica.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/1p5_LO16_aSsQf55sxE8jGaUZ1Kifj_N1?usp=sharing",
         imagen: imagenAprendeIngles
       },
       {
         nombre: "Teorema de Pitágoras",
-        descripcion: "Calcula la hipotenusa de un triángulo rectángulo usando la fórmula",
+        descripcion: "Herramienta que calcula la hipotenusa de un triángulo rectángulo. Combina geometría y programación, útil para estudiantes que aprenden aplicaciones prácticas de las matemáticas.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/1uZHUkqjOue8qIz0RScFcYED-4mZSuADX?usp=sharing",
         imagen: imagenTeoremaDePitagoras
       },
       {
         nombre: "Fórmula Cuadrática",
-        descripcion: "Resuelve ecuaciones de la forma Fórmula Cuadrática y mostrando soluciones reales o complejas.",
+        descripcion: "Resuelve ecuaciones de segundo grado mostrando soluciones reales o complejas. Ayuda a entender el comportamiento de funciones cuadráticas mediante un enfoque práctico y visual.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/1-fgynTXdup8Vt5e59bF8CjMAf25Pbwvi?usp=sharing",
         imagen: imagenFormulaCuadratica
       },
       {
         nombre: "Interés Simple",
-        descripcion: "Calcula el interés y monto total usando la fórmula del interés simple. Ideal para finanzas básicas.",
+        descripcion: "Calcula ganancias o costos financieros en préstamos o inversiones. Introduce conceptos básicos de finanzas personales de manera clara y aplicable al mundo real.",
         tecnologias: ["C#"],
         enlace: "https://drive.google.com/drive/folders/1vT_rRY9i4fhhSeMZcF_x4MWXDr18zNLv?usp=sharing",
         imagen: imagenInteresSimple
@@ -233,68 +233,63 @@ const Portfolio = () => {
 
 
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Adivina el Número (1 al 100)",
+        descripcion: "Juego divertido donde el usuario adivina un número secreto. Desarrolla lógica y uso de bucles, ideal para aprender programación de forma entretenida y progresiva.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Área y Perímetro del Círculo",
+        descripcion: "Calcula medidas de un círculo a partir del radio. Enseña geometría básica y validación de datos, útil para estudiantes de matemáticas y programación inicial.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
-      },
-           {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Estadística Básica",
+        descripcion: "Analiza un conjunto de datos calculando media, mediana, moda y desviación. Introduce conceptos clave de estadística con un enfoque práctico y fácil de entender.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Regresión Lineal Simple",
+        descripcion: "Encuentra la tendencia entre dos variables mediante una recta. Útil para análisis de datos y predicciones, ideal en proyectos escolares o investigaciones simples.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
-      },
-           {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Correlación de Pearson",
+        descripcion: "Mide qué tan relacionadas están dos variables. Ofrece una interpretación clara del resultado, ayudando a comprender relaciones en datos de forma intuitiva y educativa.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Estado de Resultados",
+        descripcion: "Simula un informe contable que muestra ingresos, costos y utilidad. Enseña finanzas básicas de empresas, perfecto para estudiantes de contabilidad o emprendedores principiantes.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
       },
       {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["React", "CSS"],
+        nombre: "Libro Diario Contable",
+        descripcion: "Registra movimientos contables validando que débitos igualen créditos. Introduce el principio de partida doble, ideal para aprender contabilidad con ejemplos prácticos.",
+        tecnologias: ["C#"],
         enlace: "#",
         imagen: "https://via.placeholder.com/300x200"
-      }
+      },
+      /*
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["C#"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+     */
     ],
     
     //.......................................................................................................................
