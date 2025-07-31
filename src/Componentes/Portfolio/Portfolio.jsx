@@ -12,6 +12,14 @@ import ReferenciasSection from './sections/ReferenciasSection';
 import './Portfolio.css';
 
 import imagenLeurisConGuitarra from '../Imagenes/LeuriscConGuitarra.jpg'
+import imagenOMB from '../Imagenes/Proyectos/OperacionesMatemáticasBásicas.png';
+import imagenNaturalezaApp from '../Imagenes/Proyectos/NaturalezaApp.png';
+import imagenAprendeIngles from '../Imagenes/Proyectos/AprendeIngles.png';
+import imagenTeoremaDePitagoras from '../Imagenes/Proyectos/TeoremaDePitagoras.png';
+import imagenFormulaCuadratica from '../Imagenes/Proyectos/FormulaCuadratica.png';
+import imagenInteresSimple from '../Imagenes/Proyectos/InteresSimple.png';
+
+
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('inicio');
@@ -174,7 +182,112 @@ const Portfolio = () => {
       },
   
     ],
+    //.......................................................................................................................
     proyectos: [
+      {
+        nombre: "Calculadora Matemática Básica",
+        descripcion: "Realiza operaciones como suma, resta, multiplicación y división. Con validación de división entre cero.",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/1zqCzzj5xTOaDt1ishq34GTFRdxKsSwbL?usp=sharing",
+        imagen: imagenOMB
+      },
+      {
+        nombre: "Descubre la Naturaleza",
+        descripcion: "Aplicación educativa que muestra datos interesantes sobre bosques, océanos, animales y curiosidades aleatorias.",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/15C2mMfF_b-PmKwQ5Fi-ZLJDa50NzvCyP?usp=sharing",
+        imagen: imagenNaturalezaApp 
+
+      },
+      {
+        nombre: "Aprende Inglés - Juego de Traducción",
+        descripcion: "Juego interactivo donde el usuario traduce palabras del español al inglés y recibe retroalimentación y puntaje.",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/1p5_LO16_aSsQf55sxE8jGaUZ1Kifj_N1?usp=sharing",
+        imagen: imagenAprendeIngles
+      },
+      {
+        nombre: "Teorema de Pitágoras",
+        descripcion: "Calcula la hipotenusa de un triángulo rectángulo usando la fórmula",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/1uZHUkqjOue8qIz0RScFcYED-4mZSuADX?usp=sharing",
+        imagen: imagenTeoremaDePitagoras
+      },
+      {
+        nombre: "Fórmula Cuadrática",
+        descripcion: "Resuelve ecuaciones de la forma Fórmula Cuadrática y mostrando soluciones reales o complejas.",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/1-fgynTXdup8Vt5e59bF8CjMAf25Pbwvi?usp=sharing",
+        imagen: imagenFormulaCuadratica
+      },
+      {
+        nombre: "Interés Simple",
+        descripcion: "Calcula el interés y monto total usando la fórmula del interés simple. Ideal para finanzas básicas.",
+        tecnologias: ["C#"],
+        enlace: "https://drive.google.com/drive/folders/1vT_rRY9i4fhhSeMZcF_x4MWXDr18zNLv?usp=sharing",
+        imagen: imagenInteresSimple
+      },
+      
+      
+      //---------------------------------------------------------------------------------------------------------------
+
+
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+           {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+           {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
+      {
+        nombre: "Nombre del Proyecto",
+        descripcion: "Breve descripción del proyecto",
+        tecnologias: ["React", "CSS"],
+        enlace: "#",
+        imagen: "https://via.placeholder.com/300x200"
+      },
       {
         nombre: "Nombre del Proyecto",
         descripcion: "Breve descripción del proyecto",
@@ -183,6 +296,8 @@ const Portfolio = () => {
         imagen: "https://via.placeholder.com/300x200"
       }
     ],
+    
+    //.......................................................................................................................
     logros: [
       {
         titulo: "Logros profesionales",
