@@ -1,25 +1,35 @@
+/* ===================== */
+/* CONTENEDOR PRINCIPAL */
+/* ===================== */
 .portfolio-container {
   max-width: 1200px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
+/* ===================== */
+/* MENÚ HORIZONTAL RESPONSIVO (AJUSTE EN FILAS) */
+/* ===================== */
 .portfolio-nav {
   background-color: #333;
   padding: 1rem 0;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Permite que los botones bajen a nuevas líneas */
   margin: 0;
   padding: 0;
-  gap: 1rem;
+  gap: 0.75rem; /* Espacio entre botones */
 }
 
 .portfolio-nav li {
@@ -30,20 +40,44 @@
   background: none;
   border: none;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.1rem;
+  font-size: clamp(0.85rem, 3.5vw, 1rem);
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  min-width: 100px;
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
 .portfolio-nav button:hover {
   background-color: #555;
+  transform: translateY(-2px);
 }
 
 .portfolio-nav button.active {
   background-color: #007bff;
+  color: white;
+  font-weight: 600;
 }
 
+/* Ajuste en pantallas pequeñas: más compacto */
+@media (max-width: 480px) {
+  .portfolio-nav ul {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .portfolio-nav button {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
+    min-width: 85px;
+  }
+}
+
+
+/* ===================== */
+/* CONTENIDO PRINCIPAL */
+/* ===================== */
 .portfolio-content {
   padding: 2rem;
   min-height: 500px;
@@ -54,16 +88,28 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Sección Inicio */
+
+/* ===================== */
+/* SECCIÓN INICIO - PERFIL */
+/* ===================== */
 .perfil-container {
   display: flex;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .foto-perfil {
@@ -71,17 +117,22 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-personal h1 {
   margin-top: 0;
   color: #333;
+  font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 .redes-sociales {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .redes-sociales a {
@@ -91,6 +142,7 @@
   border: 1px solid #007bff;
   border-radius: 4px;
   transition: all 0.3s;
+  font-size: clamp(0.8rem, 3vw, 0.95rem);
 }
 
 .redes-sociales a:hover {
@@ -98,7 +150,10 @@
   color: white;
 }
 
-/* Habilidades */
+
+/* ===================== */
+/* HABILIDADES */
+/* ===================== */
 .habilidades-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -110,6 +165,7 @@
   color: #333;
   border-bottom: 2px solid #007bff;
   padding-bottom: 0.5rem;
+  font-size: clamp(1.1rem, 3.2vw, 1.3rem);
 }
 
 .habilidad-categoria ul {
@@ -121,6 +177,8 @@
   padding: 0.25rem 0;
   position: relative;
   padding-left: 1rem;
+  font-size: clamp(0.85rem, 2.8vw, 1rem);
+  color: #555;
 }
 
 .habilidad-categoria li:before {
@@ -128,23 +186,38 @@
   color: #007bff;
   position: absolute;
   left: 0;
+  font-weight: bold;
 }
 
-/* Experiencia y Formación */
-.experiencia-item, .formacion-item, .certificacion-item, .referencia-item {
+
+/* ===================== */
+/* EXPERIENCIA, FORMACIÓN, ETC */
+/* ===================== */
+.experiencia-item,
+.formacion-item,
+.certificacion-item,
+.referencia-item {
   background: #f8f9fa;
   padding: 1.5rem;
   margin-bottom: 1rem;
   border-radius: 8px;
   border-left: 4px solid #007bff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
-.experiencia-item h3, .formacion-item h3, .certificacion-item h3, .referencia-item h3 {
+.experiencia-item h3,
+.formacion-item h3,
+.certificacion-item h3,
+.referencia-item h3 {
   margin-top: 0;
   color: #333;
+  font-size: clamp(1.1rem, 3.2vw, 1.3rem);
 }
 
-/* Proyectos */
+
+/* ===================== */
+/* PROYECTOS */
+/* ===================== */
 .proyectos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -158,7 +231,7 @@
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .proyecto-card:hover {
@@ -177,6 +250,13 @@
 .proyecto-card h3 {
   color: #333;
   margin-bottom: 0.5rem;
+  font-size: clamp(1rem, 3.2vw, 1.2rem);
+}
+
+.proyecto-card p {
+  color: #666;
+  font-size: clamp(0.85rem, 2.8vw, 1rem);
+  line-height: 1.5;
 }
 
 .proyecto-card a {
@@ -187,81 +267,42 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   margin-top: 1rem;
-  transition: background-color 0.3s;
+  font-size: clamp(0.8rem, 2.8vw, 0.9rem);
+  transition: background-color 0.3s ease;
 }
 
 .proyecto-card a:hover {
   background-color: #0056b3;
 }
 
-/* Responsive */
+
+/* ===================== */
+/* RESPONSIVE GENERAL */
+/* ===================== */
 @media (max-width: 768px) {
-  .portfolio-nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .perfil-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .redes-sociales {
-    justify-content: center;
-  }
-  
   .portfolio-content {
     padding: 1rem;
   }
-  
-  .habilidades-grid {
-    grid-template-columns: 1fr;
+
+  .perfil-container {
+    gap: 1.5rem;
   }
-  
+
+  .habilidades-grid,
   .proyectos-grid {
     grid-template-columns: 1fr;
-  }
-
-  /* Añadido: Mejorar legibilidad en móviles */
-  .info-personal h1 {
-    font-size: 1.8rem;
-  }
-
-  .portfolio-nav button {
-    width: 100%;
-    max-width: 280px;
-    font-size: 0.95rem;
-    padding: 0.5rem 1rem;
+    gap: 1.5rem;
   }
 
   .redes-sociales a {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     padding: 0.4rem 0.8rem;
   }
 }
 
-/* Nuevo: Pantallas más pequeñas (móviles estrechos) */
 @media (max-width: 480px) {
-  .portfolio-container {
-    padding: 0 1rem;
-  }
-
   .portfolio-content {
-    padding: 1rem 0.8rem;
-  }
-
-  .portfolio-nav {
-    padding: 0.8rem 0;
-  }
-
-  .portfolio-nav button {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
-    max-width: 240px;
-  }
-
-  .info-personal h1 {
-    font-size: 1.6rem;
+    padding: 1rem 0.5rem;
   }
 
   .proyecto-card img {
