@@ -332,11 +332,50 @@ const Portfolio = () => {
     ],
     referencias: [
       {
-        nombre: "Nombre de la Referencia",
+        nombre: "Carolina De Jesús Reinoso",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Segretaria de un buffet de abogados",
+        contacto: "(829) 513-0342"
+      },
+       {
+        nombre: "Marcos Miguel Gómez Camilo",
+        titulo: "Lic en informática",
+        puesto: "Freelance",
+        contacto: "(829) 336-5035"
+      }, 
+      {
+        nombre: "Joel Vargas Almanzar",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Freelance",
+        contacto: "(809) 235-6357"
+      },
+      
+      {
+        nombre: "Luis Miguel Poloanco Gomez",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Alministrador de una tienda de electonicas",
+        contacto: "(849) 407-9151"
+      },
+      //------------------------------------------------------
+      {
+        nombre: "Frailyn Martinez Santos",
+        titulo: "Estudiante de Licenciatura en Informática",
         puesto: "Puesto",
-        empresa: "Empresa",
+        contacto: "(849) 428-3455"
+      },
+       //------------------------------------------------------
+      {
+        nombre: "Nombre de la Referencia",
+        titulo: "Titulo",
+        puesto: "Puesto",
         contacto: "referencia@empresa.com"
-      }
+      },
+      {
+        nombre: "Nombre de la Referencia",
+        titulo: "Titulo",
+        puesto: "Puesto",
+        contacto: "referencia@empresa.com"
+      },
     ]
   };
 

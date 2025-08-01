@@ -7,7 +7,8 @@ const ReferenciasSection = ({ referencias }) => {
       {referencias.map((ref, index) => (
         <div key={index} className="referencia-item">
           <h3>{ref.nombre}</h3>
-          <h4>{ref.puesto} - {ref.empresa}</h4>
+          <h4>{ref.titulo}</h4>
+          <h4>{ref.puesto}</h4>
           <p>Contacto: {ref.contacto}</p>
         </div>
       ))}
