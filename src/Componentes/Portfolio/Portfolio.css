@@ -221,4 +221,55 @@
   .proyectos-grid {
     grid-template-columns: 1fr;
   }
+
+  /* Añadido: Mejorar legibilidad en móviles */
+  .info-personal h1 {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-nav button {
+    width: 100%;
+    max-width: 280px;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .redes-sociales a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Nuevo: Pantallas más pequeñas (móviles estrechos) */
+@media (max-width: 480px) {
+  .portfolio-container {
+    padding: 0 1rem;
+  }
+
+  .portfolio-content {
+    padding: 1rem 0.8rem;
+  }
+
+  .portfolio-nav {
+    padding: 0.8rem 0;
+  }
+
+  .portfolio-nav button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    max-width: 240px;
+  }
+
+  .info-personal h1 {
+    font-size: 1.6rem;
+  }
+
+  .proyecto-card img {
+    height: 160px;
+  }
+
+  .experiencia-item,
+  .formacion-item {
+    padding: 1.2rem;
+  }
 }

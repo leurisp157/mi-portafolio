@@ -332,6 +332,12 @@ const Portfolio = () => {
     ],
     referencias: [
       {
+        nombre: "Robinzon Michel Gabino Fernández",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Freelance",
+        contacto: "(849) 375-6581"
+      },
+      {
         nombre: "Carolina De Jesús Reinoso",
         titulo: "Estudiante de Licenciatura en Informática",
         puesto: "Segretaria de un buffet de abogados",
@@ -339,7 +345,7 @@ const Portfolio = () => {
       },
        {
         nombre: "Marcos Miguel Gómez Camilo",
-        titulo: "Lic en informática",
+        titulo: "Estudiante de Licenciatura en Informática",
         puesto: "Freelance",
         contacto: "(829) 336-5035"
       }, 
@@ -349,27 +355,25 @@ const Portfolio = () => {
         puesto: "Freelance",
         contacto: "(809) 235-6357"
       },
-      
       {
         nombre: "Luis Miguel Poloanco Gomez",
         titulo: "Estudiante de Licenciatura en Informática",
         puesto: "Alministrador de una tienda de electonicas",
         contacto: "(849) 407-9151"
       },
-      //------------------------------------------------------
       {
         nombre: "Frailyn Martinez Santos",
         titulo: "Estudiante de Licenciatura en Informática",
-        puesto: "Puesto",
+        puesto: "Tecnico en Claro",
         contacto: "(849) 428-3455"
       },
-       //------------------------------------------------------
       {
-        nombre: "Nombre de la Referencia",
-        titulo: "Titulo",
-        puesto: "Puesto",
-        contacto: "referencia@empresa.com"
+        nombre: "Bismar Henriquez Salazar",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Freelance",
+        contacto: "(849) 477-4789"
       },
+//------------------------------------------------------
       {
         nombre: "Nombre de la Referencia",
         titulo: "Titulo",

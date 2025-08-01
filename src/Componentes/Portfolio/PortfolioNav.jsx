@@ -1,4 +1,5 @@
 import React from 'react';
+import './Portfolio.css'
 
 const PortfolioNav = ({ sections, activeSection, onSectionChange }) => {
   return (
