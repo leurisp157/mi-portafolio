@@ -11,6 +11,7 @@ import LogrosSection from './sections/LogrosSection';
 import ReferenciasSection from './sections/ReferenciasSection';
 import './Portfolio.css';
 
+import imagenLeurisPP from '../Imagenes/LeurisPP.png';
 import imagenLeurisConGuitarra from '../Imagenes/LeuriscConGuitarra.jpg'
 import imagenOMB from '../Imagenes/Proyectos/OperacionesMatemáticasBásicas.png';
 import imagenNaturalezaApp from '../Imagenes/Proyectos/NaturalezaApp.png';
@@ -33,11 +34,11 @@ const Portfolio = () => {
   const portfolioData = {
     informacionPersonal: {
       nombre: "Leuris Peña Polonia",
-      foto: imagenLeurisConGuitarra,
+      foto: imagenLeurisPP,
       correo: "leuirip157@gmail.com",
       telefono: "829-792-0986",
-      linkedin: "https://linkedin.com/in/tunombre",
-      sitioWeb: "https://tusitio.com"
+      linkedin: "https://www.linkedin.com/in/leuris-pe%C3%B1a-polonia/",
+      sitioWeb: "https://github.com/leurisp157"
     },
     resumen: "Soy un apasionado desarrollador tecnológico con una sólida formación académica en informática y una amplia experiencia técnica en múltiples lenguajes de programación. Mi carrera combina habilidades técnicas avanzadas con una excelente capacidad de trabajo en equipo y liderazgo situacional.",
     objetivo: "Destaco por mi adaptabilidad, pensamiento crítico y orientación al cliente, lo que me permite abordar proyectos complejos con soluciones creativas e innovadoras. Mi experiencia previa en gestión documental me ha dotado de una excelente atención al detalle y capacidad de organización que aplico en cada proyecto tecnológico.",
@@ -373,13 +374,14 @@ const Portfolio = () => {
         puesto: "Freelance",
         contacto: "(849) 477-4789"
       },
-//------------------------------------------------------
+/*
       {
         nombre: "Nombre de la Referencia",
         titulo: "Titulo",
         puesto: "Puesto",
         contacto: "referencia@empresa.com"
       },
+ */     
     ]
   };
 

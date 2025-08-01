@@ -380,3 +380,24 @@ body {
     font-size: 1.6rem;
   }
 }
+
+/* Botones para enlaces (como "Ver certificado") */
+.certificacion-item a {
+  display: inline-block;
+  background: #6366f1;
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+.certificacion-item a:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3);
+}

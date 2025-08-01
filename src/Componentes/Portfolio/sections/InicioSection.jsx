@@ -12,7 +12,7 @@ const InicioSection = ({ data }) => {
           <div className="redes-sociales">
             <a href={data.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
             {data.sitioWeb && (
-              <a href={data.sitioWeb} target="_blank" rel="noopener noreferrer">Sitio Web</a>
+              <a href={data.sitioWeb} target="_blank" rel="noopener noreferrer">GitHub</a>
             )}
           </div>
         </div>
