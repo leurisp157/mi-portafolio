@@ -98,7 +98,8 @@ const Portfolio = () => {
       {
         titulo: "Programa del centro de desarrollo infantil Maestro de Galilea",
         institucion: "Concilio Biblico Cristiano",
-        periodo: "2003 - 2021"
+        periodo: "2003 - 2021",
+        diploma: "Diploma en educación infantil"
       }
     ],
      certificaciones: [
@@ -109,10 +110,22 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/file/d/19Z0Y7JPJCqa3iFc2-hSCsCAUO34Wtfv_/view?usp=sharing"
       },
       {
+        nombre: "ETICA LABORAL",
+        entidad: "INFOTEP",
+        fecha: "2020",
+        enlace: "https://drive.google.com/file/d/1oMaDAMiQOhuKvF_k_Jv5Saq3oyRCsTvt/view?usp=sharing"
+      },
+      {
         nombre: "Finder",
         entidad: "Fundacion Carlos Slim",
         fecha: "2025",
         enlace: "https://drive.google.com/file/d/11W4SC6eTMK2ErEGpibYa--srPE-E3fMM/view?usp=sharing"
+      },
+      {
+        nombre: "INTELIGENCIA FINANCIERA",
+        entidad: "INFOTEP",
+        fecha: "2019",
+        enlace: "https://drive.google.com/file/d/1V2Vz9fOucqVAAayoLgqZL_3zWVnDDUIw/view?usp=sharing"
       },
       {
         nombre: "Programador (orientado a objetos)",
@@ -121,10 +134,22 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/file/d/1HEGFzMaeFQjbpV1PyArGjvNcmM1O1LBy/view?usp=sharing"
       },
       {
+        nombre: "MANEJO DE CONFLICTOS EN CONTEXTOS LABORALES",
+        entidad: "INFOTEP",
+        fecha: "2019",
+        enlace: "https://drive.google.com/file/d/1f4jy-v1cBx8EqHguluKYvGGCsvv4Iv2g/view?usp=sharing"
+      },
+      {
         nombre: "Analista de necesidades de formación",
         entidad: "Fundacion Carlos Slim",
         fecha: "2025",
         enlace: "https://drive.google.com/file/d/1QhK_dc9YfW2yGUbbXzRsomSmZRURZgAN/view?usp=sharing"
+      },
+      {
+        nombre: "MANEJO DE EXPEDIENTES CLINICOS",
+        entidad: "INFOTEP",
+        fecha: "2018",
+        enlace: "https://drive.google.com/file/d/14dyNUmWWJDap_pQO8irfCMsv7NGmtgAt/view?usp=sharing"
       },
       {
         nombre: "Administrador de plataformas digitales de aprendizaje",
@@ -133,16 +158,34 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/file/d/1qfTNEcvlSfk5kC0PCT1m7FhBfKLOonPb/view?usp=sharing"
       },
       {
+        nombre: "ORTOGRAFIA Y REDACCION DE INFORMES TECNICOS",
+        entidad: "INFOTEP",
+        fecha: "2020",
+        enlace: "https://drive.google.com/file/d/1dG7_-90qlc3yH9xwpDrP9Ivqdvuvycrg/view?usp=sharing"
+      },
+      {
         nombre: "Cómputo básico",
         entidad: "Fundacion Carlos Slim",
         fecha: "2025",
         enlace: "https://drive.google.com/file/d/1q2cfujMuw9-DjwmxZVQvmxGIyGlR7HoC/view?usp=sharing"
       },
       {
+        nombre: "SENSIBILIZACION DE LOS SERVICIOS DE SALUD",
+        entidad: "INFOTEP",
+        fecha: "2018",
+        enlace: "https://drive.google.com/file/d/1dhJXwE4KpANi_ft10tbUWHn4VaW2lHHB/view?usp=sharing"
+      },
+      {
         nombre: "Prácticas de ofimática",
         entidad: "Fundacion Carlos Slim",
         fecha: "2025",
         enlace: "https://drive.google.com/file/d/10hneBvHks6Kb4TbVV8SmWARLWI28KYkD/view?usp=sharing"
+      },
+      {
+        nombre: "TRABAJO EN EQUIPO",
+        entidad: "INFOTEP",
+        fecha: "2018",
+        enlace: "https://drive.google.com/file/d/1kyftvvgojvyGsWRUKy5eyTqCxPpGxE8D/view?usp=sharing"
       },
       {
         nombre: "Prácticas de mecanografía",
