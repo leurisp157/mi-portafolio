@@ -236,8 +236,17 @@ const Portfolio = () => {
       },
   
     ],
-    //.......................................................................................................................
     proyectos: [
+      
+      /*
+       {
+        nombre: "Lista de Tareas",
+        descripcion: "",
+        tecnologias: ["HTML", "CSS", "JavaScript"],
+        enlace: "",
+        imagen: imagenLIstaDeTaeas
+      },
+      */
       {
         nombre: "Calculadora Matemática Web",
         descripcion: "Calculadora Matemática Web es una aplicación interactiva que permite realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. Su diseño intuitivo y funcionalidad sencilla la hacen ideal para usuarios que buscan una herramienta rápida y eficiente para resolver cálculos matemáticos cotidianos.",
@@ -259,16 +268,6 @@ const Portfolio = () => {
         enlace: "https://lucky-phoenix-73708a.netlify.app",
         imagen: imagenAdivinaElNumeroWeb
       },
-
-      /*
-       {
-        nombre: "Lista de Tareas",
-        descripcion: "",
-        tecnologias: ["HTML", "CSS", "JavaScript"],
-        enlace: "",
-        imagen: imagenLIstaDeTaeas
-      },
-      */
       {
         nombre: "Lista de Tareas",
         descripcion: "La lista de tareas es una herramienta esencial para mejorar la productividad y mantener el orden en el día a día. Permite organizar actividades pendientes de forma clara y visual, facilitando la planificación personal, académica o laboral.",
@@ -334,11 +333,6 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/drive/folders/1gEH9DYnUJxP4Wp3S_m1R7dMGrQ6V1CKs?usp=sharing",
         imagen: imagenAreaPerimetroCirculo
       },
-            
-      
-      //---------------------------------------------------------------------------------------------------------------
-
-
       {
         nombre: "Estadística Básica",
         descripcion: "Analiza un conjunto de datos calculando media, mediana, moda y desviación. Introduce conceptos clave de estadística con un enfoque práctico y fácil de entender.",
@@ -386,7 +380,6 @@ const Portfolio = () => {
      */
     ],
     
-    //.......................................................................................................................
     logros: [
       {
         titulo: "Logros profesionales",
@@ -431,6 +424,12 @@ const Portfolio = () => {
         contacto: "(829) 513-0342"
       },
        {
+        nombre: "Gustavo Junior Bonifacio Peña",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Sustituto docente",
+        contacto: "(809) 819-2455"
+      },
+       {
         nombre: "Marcos Miguel Gómez Camilo",
         titulo: "Estudiante de Licenciatura en Informática",
         puesto: "Freelance",
@@ -460,6 +459,13 @@ const Portfolio = () => {
         puesto: "Freelance",
         contacto: "(849) 477-4789"
       },
+      {
+        nombre: "Yefrailyn Fernández Nuñez",
+        titulo: "Estudiante de Licenciatura en Informática",
+        puesto: "Freelance",
+        contacto: "(829) 312-0427"
+      },
+     
 /*
       {
         nombre: "Nombre de la Referencia",
