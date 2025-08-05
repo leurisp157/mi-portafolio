@@ -249,28 +249,28 @@ const Portfolio = () => {
       */
       {
         nombre: "Calculadora Matemática Web",
-        descripcion: "Calculadora Matemática Web es una aplicación interactiva que permite realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. Su diseño intuitivo y funcionalidad sencilla la hacen ideal para usuarios que buscan una herramienta rápida y eficiente para resolver cálculos matemáticos cotidianos.",
+        descripcion: "Calculadora Matemática Web; Es una aplicación interactiva que permite realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. Su diseño intuitivo y funcionalidad sencilla la hacen ideal para usuarios que buscan una herramienta rápida y eficiente para resolver cálculos matemáticos cotidianos.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
-        enlace: "",
+        enlace: "https://mellow-faloodeh-9d9f5b.netlify.app/",
         imagen: imgaenCalculadoraMatematicaWeb
       },
        {
         nombre: "Conversor de Unidades",
-        descripcion: "Conversor de Unidades es una herramienta web práctica y fácil de usar que permite transformar valores entre diferentes sistemas de medida",
+        descripcion: "Conversor de Unidades Web; Es una herramienta web práctica y fácil de usar que permite transformar valores entre diferentes sistemas de medida",
         tecnologias: ["HTML", "CSS", "JavaScript"],
         enlace: "https://animated-mandazi-f6ca55.netlify.app/",
         imagen: imagenConversorDeUnidadesWeb
       },
       {
         nombre: "Adivina el Numero (1 al 100)",
-        descripcion: "Adivina el Número (1 al 100) es un juego interactivo desarrollado con HTML, CSS y JavaScript que desafía al usuario a adivinar un número secreto generado aleatoriamente entre 1 y 100. Con cada intento, el jugador recibe pistas que indican si el número ingresado es mayor o menor al correcto, lo que permite acercarse estratégicamente a la solución.",
+        descripcion: "Adivina el Número (1 al 100) Web; Es un juego interactivo desarrollado con HTML, CSS y JavaScript que desafía al usuario a adivinar un número secreto generado aleatoriamente entre 1 y 100. Con cada intento, el jugador recibe pistas que indican si el número ingresado es mayor o menor al correcto, lo que permite acercarse estratégicamente a la solución.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
         enlace: "https://lucky-phoenix-73708a.netlify.app",
         imagen: imagenAdivinaElNumeroWeb
       },
       {
         nombre: "Lista de Tareas",
-        descripcion: "La lista de tareas es una herramienta esencial para mejorar la productividad y mantener el orden en el día a día. Permite organizar actividades pendientes de forma clara y visual, facilitando la planificación personal, académica o laboral.",
+        descripcion: "La lista de tareas Web; Es una herramienta esencial para mejorar la productividad y mantener el orden en el día a día. Permite organizar actividades pendientes de forma clara y visual, facilitando la planificación personal, académica o laboral.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
         enlace: "https://cosmic-elf-82d79a.netlify.app",
         imagen: imagenLIstaDeTaeasWeb
