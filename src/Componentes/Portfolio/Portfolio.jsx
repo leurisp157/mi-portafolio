@@ -12,7 +12,7 @@ import ReferenciasSection from './sections/ReferenciasSection';
 import './Portfolio.css';
 
 import imagenLeurisPP from '../Imagenes/LeurisPP.png';
-import imagenLeurisConGuitarra from '../Imagenes/LeuriscConGuitarra.jpg'
+//import imagenLeurisConGuitarra from '../Imagenes/LeuriscConGuitarra.jpg'
 import imagenOMB from '../Imagenes/Proyectos/OperacionesMatemáticasBásicas.png';
 import imagenNaturalezaApp from '../Imagenes/Proyectos/NaturalezaApp.png';
 import imagenAprendeIngles from '../Imagenes/Proyectos/AprendeIngles.png';
@@ -31,6 +31,8 @@ import imagenLIstaDeTaeasWeb from '../Imagenes/Proyectos/Pagina_web/ListaDeTarea
 import imagenAdivinaElNumeroWeb from '../Imagenes/Proyectos/Pagina_web/AdivinaElNumero.png';
 import imagenConversorDeUnidadesWeb from '../Imagenes/Proyectos/Pagina_web/ConversorDeUnidades.png';
 import imgaenCalculadoraMatematicaWeb from '../Imagenes/Proyectos/Pagina_web/CalculadoraMatematica.png';
+import imagenPiedraPapelTijera from '../Imagenes/Proyectos/Pagina_web/PiedraPapelOTijera.png';
+import imagenContadorDePalabras from '../Imagenes/Proyectos/Pagina_web/ContadoDePalabra.png';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('inicio');
@@ -248,17 +250,31 @@ const Portfolio = () => {
       },
       */
       {
+        nombre: "Contador de Palabras",
+        descripcion: "El Contador de Palabras y Caracteres es una herramienta sencilla, rápida y eficiente que permite medir con precisión la longitud de cualquier texto en tiempo real. Diseñado con un enfoque intuitivo y moderno.",
+        tecnologias: ["HTML", "CSS", "JavaScript"],
+        enlace: "https://euphonious-kelpie-4d961b.netlify.app",
+        imagen: imagenContadorDePalabras
+      },
+     {
+        nombre: "Piedra, Papel o Tijera",
+        descripcion: "Piedra, Papel o Tijera es un juego clásico de elección rápida que combina suerte y estrategia en cada movimiento. En esta versión interactiva, puedes desafiar a la máquina seleccionando tu opción: piedra (🪨), papel (📄) o tijera (✂️), y descubrir al instante si ganaste, perdiste o empataste. ",
+        tecnologias: ["HTML", "CSS", "JavaScript"],
+        enlace: "https://juego-de-piedra-papel-y-tijera.netlify.app",
+        imagen: imagenPiedraPapelTijera
+      },
+      {
         nombre: "Calculadora Matemática Web",
         descripcion: "Calculadora Matemática Web; Es una aplicación interactiva que permite realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. Su diseño intuitivo y funcionalidad sencilla la hacen ideal para usuarios que buscan una herramienta rápida y eficiente para resolver cálculos matemáticos cotidianos.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
-        enlace: "https://mellow-faloodeh-9d9f5b.netlify.app/",
+        enlace: "https://mellow-faloodeh-9d9f5b.netlify.app",
         imagen: imgaenCalculadoraMatematicaWeb
       },
        {
         nombre: "Conversor de Unidades",
         descripcion: "Conversor de Unidades Web; Es una herramienta web práctica y fácil de usar que permite transformar valores entre diferentes sistemas de medida",
         tecnologias: ["HTML", "CSS", "JavaScript"],
-        enlace: "https://animated-mandazi-f6ca55.netlify.app/",
+        enlace: "https://animated-mandazi-f6ca55.netlify.app",
         imagen: imagenConversorDeUnidadesWeb
       },
       {
@@ -369,15 +385,6 @@ const Portfolio = () => {
         enlace: "https://drive.google.com/drive/folders/1NiH-wDheOLLFi64grD7qZvzXBx12RNB_?usp=sharing",
         imagen: imagenLibroDiarioContable
       },
-      /*
-      {
-        nombre: "Nombre del Proyecto",
-        descripcion: "Breve descripción del proyecto",
-        tecnologias: ["C#"],
-        enlace: "#",
-        imagen: "https://via.placeholder.com/300x200"
-      },
-     */
     ],
     
     logros: [
