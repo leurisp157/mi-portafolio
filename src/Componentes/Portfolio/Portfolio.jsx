@@ -259,7 +259,7 @@ const Portfolio = () => {
         imagen: imagenBancoConCajaDeAhorros
       },
      {
-        nombre: "Lista de Tareas",
+        nombre: "Caja Registradora",
         descripcion: "Este proyecto es una aplicación de escritorio desarrollada en C# con Windows Forms que simula el funcionamiento de una caja registradora para pequeños comercios. Permite gestionar productos, realizar ventas, calcular impuestos, generar tickets y mantener el control de inventario en tiempo real.",
         tecnologias: ["Windows Forms ", ".NET Framework", "C#"],
         enlace: "https://drive.google.com/drive/folders/1P8r_qOZ7a-vdSjks_xmgBoTA-NJRsBqF?usp=sharing",
