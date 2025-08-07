@@ -33,6 +33,9 @@ import imgaenCalculadoraMatematicaWeb from '../Imagenes/Proyectos/Pagina_web/Cal
 import imagenPiedraPapelTijera from '../Imagenes/Proyectos/Pagina_web/PiedraPapelOTijera.png';
 import imagenContadorDePalabras from '../Imagenes/Proyectos/Pagina_web/ContadoDePalabra.png';
 
+import imagenCajaRegistradora from '../Imagenes/Proyectos/ProyectosWindowsForms/CajaRegistradora.png';
+import imagenBancoConCajaDeAhorros from '../Imagenes/Proyectos/ProyectosWindowsForms/BancoConCajaDeAhorros.png';
+
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('inicio');
 
@@ -248,6 +251,20 @@ const Portfolio = () => {
         imagen: imagenLIstaDeTaeas
       },
       */
+     {
+        nombre: "Banco con Caja de Ahorros",
+        descripcion: "Este proyecto es una aplicación de escritorio desarrollada en C# con Windows Forms que simula un sistema bancario básico para la gestión de cuentas de ahorro. Permite a los usuarios iniciar sesión, realizar depósitos, retiros, transferencias entre cuentas y consultar su historial de transacciones, todo con persistencia de datos mediante archivos JSON.",
+        tecnologias: ["Windows Forms ", ".NET Framework", "C#"],
+        enlace: "https://drive.google.com/drive/folders/1kZyobQF92Fn75qAkOC4viDlXW7mI4I1F?usp=sharing",
+        imagen: imagenBancoConCajaDeAhorros
+      },
+     {
+        nombre: "Lista de Tareas",
+        descripcion: "Este proyecto es una aplicación de escritorio desarrollada en C# con Windows Forms que simula el funcionamiento de una caja registradora para pequeños comercios. Permite gestionar productos, realizar ventas, calcular impuestos, generar tickets y mantener el control de inventario en tiempo real.",
+        tecnologias: ["Windows Forms ", ".NET Framework", "C#"],
+        enlace: "https://drive.google.com/drive/folders/1P8r_qOZ7a-vdSjks_xmgBoTA-NJRsBqF?usp=sharing",
+        imagen: imagenCajaRegistradora
+      },
       {
         nombre: "Contador de Palabras",
         descripcion: "El Contador de Palabras y Caracteres es una herramienta sencilla, rápida y eficiente que permite medir con precisión la longitud de cualquier texto en tiempo real. Diseñado con un enfoque intuitivo y moderno.",
