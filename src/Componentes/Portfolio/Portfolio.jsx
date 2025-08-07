@@ -12,20 +12,19 @@ import ReferenciasSection from './sections/ReferenciasSection';
 import './Portfolio.css';
 
 import imagenLeurisPP from '../Imagenes/LeurisPP.png';
-//import imagenLeurisConGuitarra from '../Imagenes/LeuriscConGuitarra.jpg'
-import imagenOMB from '../Imagenes/Proyectos/OperacionesMatemáticasBásicas.png';
-import imagenNaturalezaApp from '../Imagenes/Proyectos/NaturalezaApp.png';
-import imagenAprendeIngles from '../Imagenes/Proyectos/AprendeIngles.png';
-import imagenTeoremaDePitagoras from '../Imagenes/Proyectos/TeoremaDePitagoras.png';
-import imagenFormulaCuadratica from '../Imagenes/Proyectos/FormulaCuadratica.png';
-import imagenInteresSimple from '../Imagenes/Proyectos/InteresSimple.png';
-import imagenAdivinaElNumero from '../Imagenes/Proyectos/AdivinaElNúmero.png';
-import imagenAreaPerimetroCirculo from '../Imagenes/Proyectos/AreaYPerimetroDelCírculo.png';
-import imagenEstadisticaBasica from '../Imagenes/Proyectos/EstadisticaBasica.png';
-import imagenRegresionLinealSimple from '../Imagenes/Proyectos/RegresionLinealSimple.png';
-import imagenCorrelacionPearson from '../Imagenes/Proyectos/CorrelacionDePearson.png';
-import imagenEstadoDeResultados from '../Imagenes/Proyectos/EstadoDeResultados.png';
-import imagenLibroDiarioContable from '../Imagenes/Proyectos/LibroDiarioContable.png';
+import imagenOMB from '../Imagenes/Proyectos/ProyectosTerminal/OperacionesMatemáticasBásicas.png';
+import imagenNaturalezaApp from '../Imagenes/Proyectos/ProyectosTerminal/NaturalezaApp.png';
+import imagenAprendeIngles from '../Imagenes/Proyectos/ProyectosTerminal/AprendeIngles.png';
+import imagenTeoremaDePitagoras from '../Imagenes/Proyectos/ProyectosTerminal/TeoremaDePitagoras.png';
+import imagenFormulaCuadratica from '../Imagenes/Proyectos/ProyectosTerminal/FormulaCuadratica.png';
+import imagenInteresSimple from '../Imagenes/Proyectos/ProyectosTerminal/InteresSimple.png';
+import imagenAdivinaElNumero from '../Imagenes/Proyectos/ProyectosTerminal/AdivinaElNúmero.png';
+import imagenAreaPerimetroCirculo from '../Imagenes/Proyectos/ProyectosTerminal/AreaYPerimetroDelCírculo.png';
+import imagenEstadisticaBasica from '../Imagenes/Proyectos/ProyectosTerminal/EstadisticaBasica.png';
+import imagenRegresionLinealSimple from '../Imagenes/Proyectos/ProyectosTerminal/RegresionLinealSimple.png';
+import imagenCorrelacionPearson from '../Imagenes/Proyectos/ProyectosTerminal/CorrelacionDePearson.png';
+import imagenEstadoDeResultados from '../Imagenes/Proyectos/ProyectosTerminal/EstadoDeResultados.png';
+import imagenLibroDiarioContable from '../Imagenes/Proyectos/ProyectosTerminal/LibroDiarioContable.png';
 
 import imagenLIstaDeTaeasWeb from '../Imagenes/Proyectos/Pagina_web/ListaDeTarea.png';
 import imagenAdivinaElNumeroWeb from '../Imagenes/Proyectos/Pagina_web/AdivinaElNumero.png';
