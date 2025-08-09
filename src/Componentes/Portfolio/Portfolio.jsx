@@ -49,8 +49,8 @@ const Portfolio = () => {
       linkedin: "https://www.linkedin.com/in/leuris-pe%C3%B1a-polonia/",
       sitioWeb: "https://github.com/leurisp157"
     },
-    resumen: "Soy un apasionado desarrollador tecnológico con una sólida formación académica en informática y una amplia experiencia técnica en múltiples lenguajes de programación. Mi carrera combina habilidades técnicas avanzadas con una excelente capacidad de trabajo en equipo y liderazgo situacional.",
-    objetivo: "Destaco por mi adaptabilidad, pensamiento crítico y orientación al cliente, lo que me permite abordar proyectos complejos con soluciones creativas e innovadoras. Mi experiencia previa en gestión documental me ha dotado de una excelente atención al detalle y capacidad de organización que aplico en cada proyecto tecnológico.",
+    resumen: "Soy un desarrollador tecnológico apasionado, con una sólida formación en informática y experiencia práctica en diversos lenguajes de programación. Combino competencias técnicas avanzadas con habilidades destacadas para el trabajo en equipo, liderazgo situacional y resolución de problemas, lo que me permite aportar valor en entornos dinámicos y exigentes.",
+    objetivo: "Me caracterizo por mi adaptabilidad, pensamiento crítico y enfoque centrado en el cliente, cualidades que aplico para desarrollar soluciones creativas e innovadoras a desafíos complejos. Mi experiencia en gestión documental ha fortalecido mi atención al detalle, organización y capacidad para optimizar procesos, atributos que integro en cada proyecto tecnológico para garantizar calidad y eficiencia.",
     habilidades: {
       tecnicas: ["React", "JavaScript", "CSS", "HTML", "Node.js","SQL (MySQL, PostgreSQL)","Python","Git y GitHub","MongoDB","Diseño y UX/UI","Lenguajes de Programación c",
         "Lenguajes de Programación c++","Lenguajes de Programación c#", "Lenguajes de Programación Java","Lenguajes de Programación PHP","Lenguajes de Programación Python",
@@ -60,7 +60,7 @@ const Portfolio = () => {
          "Atención al detalle", "Liderazgo situacional", "Empatía", "Negociación", "Toma de decisiones", "Pensamiento estratégico", "Orientación al cliente", "Habilidades interpersonales"],
 
 
-      idiomas: ["Español (nativo)", "Inglés (muy basico)",],
+      idiomas: ["Español (nativo)", "Inglés (basico)",],
       herramientas: ["Figma (diseño de interfaces, prototipado, colaboración en tiempo real)", "Adobe Photoshop (edición de imágenes, diseño gráfico)", "Adobe Illustrator (gráficos vectoriales)",
          "Sketch (diseño de interfaces, macOS)", "Adobe XD (diseño y prototipado UX/UI)", "Visual Studio Code (extensiones, debugging, integración Git)", "Sublime Text (edición de código, personalización)",
          "Git (control de versiones, colaboración en proyectos)", "GitHub (almacenamiento de código, colaboración, gestión de proyectos)", "Postman (pruebas de API, documentación)",]
@@ -86,11 +86,11 @@ const Portfolio = () => {
         titulo: "Licenciatura en Informática",
         institucion: "Universidad Autónoma de Santo Domingo",
         periodo: "2019 - Actualidad",
-        comentario: "Solo flata hacer la tesis para graduarme"
+        comentario: "En porceso de Monografico"
       },
       {
         titulo: "Tecnico en Informatica",
-        institucion: "VICENTE AQUILINO SANTOS",
+        institucion: "Politécnico Vicente Aquilino Santos",
         periodo: "2015 - 2018",
       },
       
